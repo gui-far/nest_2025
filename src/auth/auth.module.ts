@@ -4,6 +4,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { PassportModule } from '@nestjs/passport';
 import { Env } from 'src/env';
 
+//This module imports the PassPort and  JwtModule native from nestjs
 @Module({
     imports: [
         PassportModule,
