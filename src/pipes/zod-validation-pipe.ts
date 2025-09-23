@@ -14,7 +14,7 @@ export class ZodValidationPipe implements PipeTransform {
     transform(value: any) {
         try {
 
-            this.schema.parse(value)
+            return this.schema.parse(value)
 
         } catch (error) {
 

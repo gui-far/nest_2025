@@ -7,3 +7,4 @@ npm i prisma -D
 npm i @prisma/client
 
 3
+npm vite-tsconfig-paths -D
